@@ -1,0 +1,176 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b0f19;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* Encabezado y Navegación */
+header {
+    text-align: center;
+    padding: 30px 15px 10px 15px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #a0aec0;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1a202c;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #63b3ed;
+}
+
+/* Contenido Principal (Basado en la captura) */
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 15px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    border-bottom: 1px solid #2d3748;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin: 15px 0 8px 0;
+    color: #e2e8f0;
+}
+
+p {
+    margin-bottom: 10px;
+    color: #cbd5e0;
+    font-size: 0.95rem;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: #cbd5e0;
+    font-size: 0.95rem;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+/* Banner de Imagen */
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.caption {
+    font-size: 0.85rem;
+    color: #a0aec0;
+    margin-top: 6px;
+}
+
+/* Tabla de Contraseñas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    font-size: 0.9rem;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #2d3748;
+}
+
+th {
+    background-color: #1a202c;
+}
+
+.badge-bajo {
+    color: #fc8181;
+    font-weight: bold;
+}
+
+.badge-medio {
+    color: #f6ad55;
+    font-weight: bold;
+}
+
+.badge-alto {
+    color: #68d391;
+    font-weight: bold;
+}
+
+/* Caja de Advertencia */
+.alert-box {
+    background-color: #1a202c;
+    border-left: 4px solid #e53e3e;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.alert-box h4 {
+    color: #fc8181;
+    margin-bottom: 6px;
+}
+
+/* Enlaces y Pie de página */
+a {
+    color: #63b3ed;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #2d3748;
+    margin: 20px 0;
+}
+
+footer {
+    font-size: 0.85rem;
+    color: #a0aec0;
+    line-height: 1.4;
+}
